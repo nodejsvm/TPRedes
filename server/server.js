@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Api GeeSem lista." });
+  res.json({ message: "Api GeeSem lista nahuel estuvo aqui." });
 });
 
 // set port, listen for requests
