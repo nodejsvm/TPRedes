@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Prueba rama Javi" });
+  res.json({ message: "Prueba 2 rama Javi" });
 });
 
 // set port, listen for requests
