@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 
 // set port, listen for requests
 app.listen(3000, () => {
-  console.log("Server is running on port 3000.");
+  console.log("Server is running on port 3000 Nico estuvo aqui amego.");
 });
 
 /* CODIGO PARA MANEJAR LA INFO DE LA BASE DE DATOS
